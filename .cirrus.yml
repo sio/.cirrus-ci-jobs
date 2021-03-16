@@ -1,0 +1,7 @@
+task:
+  container:
+    image: debian:stable-slim
+  apt_script:
+    - apt-get update
+    - apt-get -y install curl
+    - curl 'https://deb.debian.org/'
