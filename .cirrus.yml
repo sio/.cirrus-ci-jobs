@@ -1,0 +1,10 @@
+container:
+  image: debian:slim
+
+keepalive_task:
+  beep_script:
+    - echo "This was a triumph"
+    - echo "I'm making a note here"
+    - echo "HUGE SUCCESS"
+    - date
+    - uname -a
